@@ -1,0 +1,2 @@
+Attack Type,IP Address,Target User,Attempts,First Seen,Last Seen,Severity
+Possible Brute Force,192.168.1.10,admin,5,2026-10-07 10:15:21,2026-10-07 10:15:36,MEDIUM
