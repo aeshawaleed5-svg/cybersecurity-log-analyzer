@@ -48,11 +48,7 @@ if not alerts.empty:
     else:
         filtered_alerts = alerts
 
-    st.dataframe(
-        filtered_alerts,
-        use_container_width=True,
-        hide_index=True
-    )
+    st.dataframe(filtered_alerts, width="stretch", hide_index=True)
 
     st.subheader("📊 Alerts by Severity")
 
